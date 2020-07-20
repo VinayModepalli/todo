@@ -7,9 +7,9 @@ import AddTodo from './AddTodo';
 class App extends Component {
   state = {
     todos: [
-      {id:1 , todo:'Kill Thanos'},
-      {id:2 , todo:'Recruit Captain Marvel'},
-      {id:3 , todo:'Find Loki'},
+      {id:1 , todo:'This is an example Todo'},
+      {id:2 , todo:'Tap to delete'},
+      {id:3 , todo:'Try adding your own Todos'},
     ]
   }
   deleteTodo = (id) => { 
