@@ -28,7 +28,7 @@ export default class AddTodo extends Component {
                     <div className="col-lg-5 col-md-10 mx-auto">
                         <div className="form-group">
                             <label htmlFor="">Enter the Todo</label>
-                            <input className="form-control" type="text" onChange={this.handleChange}  value={this.state.todo}/>
+                            <input className="form-control rounded-pill" type="text" onChange={this.handleChange}  value={this.state.todo}/>
                         </div>
                     </div>
                 </form>
