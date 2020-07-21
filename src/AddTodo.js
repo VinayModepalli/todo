@@ -11,10 +11,15 @@ export default class AddTodo extends Component {
     }
     handleSubmit = (e) => {
         e.preventDefault();
-        this.props.addTodo(this.state)
-        this.setState({
-            todo: ''
+        if (this.state.todo === ''){
+            //pass
+        }
+        else {
+            this.props.addTodo(this.state)
+            this.setState({
+                todo: ''
         })
+        }
     }
     render() {
         return (
